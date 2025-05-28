@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio Website</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Sukesh</a>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-img">
+      <img src="profile.png" alt="Sukesh Profile" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, It's <span>Sukesh</span></h1>
+      <h3 class="typing-text">I'm a <span></span></h3>
+      <p>
+        Hi I am Sukesh, an aspiring Software Developer interested in the field
+        of building AI-driven software applications.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="#" class="btn">Hire me</a>
+    </div>
+  </section>
+  <section class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="section-content">
+        <p>JavaScript, React.js, Python, TensorFlow, Node.js, SQL, MongoDB, AWS, Git</p>
+    </div>
+</section>
+
+<section class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-card">
+        <h3>AI Image Captioning</h3>
+        <p>Generates captions for images using CNN-LSTM and Transformer models trained on the Flickr8k dataset.</p>
+    </div>
+    <div class="project-card">
+        <h3>Smart Irrigation System</h3>
+        <p>Uses ML models and sensors to automate irrigation decisions via a Raspberry Pi 4.</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
